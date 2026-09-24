@@ -1,37 +1,61 @@
 # Frontend Advanced
 
-> Part of the [Full-Stack Learning Curriculum](https://github.com/yogthesharma/curriculum) · **Phase:** Frontend
+Standalone learning repo. Work here on its own — no other repos required.
 
-## What you'll learn
+**Phase (for your own roadmap):** Frontend
 
-Browser internals, rendering, performance, state management, accessibility
+## Context
 
-## Goals
+The browser is a runtime with its own rendering pipeline, performance budget, and accessibility rules. State management is how UI stays coherent. Everything you need for advanced frontend study lives in this repo.
 
-- Build a solid mental model of the core ideas
-- Practice with focused exercises and notes
-- Connect concepts back to real full-stack systems
+This repository is the single place for everything related to **Frontend Advanced**: notes, exercises, and small projects. Clone it, open it, and treat it as a complete unit of study.
 
-## Structure
+## Scope
+
+- Browser internals and the rendering pipeline
+- Performance: loading, runtime, Core Web Vitals intuition
+- State management approaches and tradeoffs
+- Accessibility (a11y) as a first-class requirement
+- Modern frontend architecture without framework lock-in of the *ideas*
+
+## Outcomes
+
+When you are done with this repo, you should be able to:
+
+- Profile and fix a slow UI interaction
+- Structure state so data flow stays understandable
+- Ship UI that is usable with keyboard / screen reader basics
+
+## How to work in this repo
+
+1. Read / write concept notes under `notes/`.
+2. Solve practice problems under `exercises/`.
+3. Ship at least one small project under `projects/` that forces the ideas to stick.
+4. Tick the checklist below as you go.
+
+You do not need any other curriculum repo open while you work here.
+
+## Layout
 
 ```
 frontend-advanced/
-├── README.md          # You are here
-├── notes/             # Concept write-ups (add as you go)
-├── exercises/         # Hands-on practice
-└── projects/          # Small end-to-end builds
+├── README.md       # Context and checklist (this file)
+├── notes/          # Concept write-ups
+├── exercises/      # Practice problems and solutions
+└── projects/       # Mini builds that apply the topic
 ```
 
 ## Progress
 
-- [ ] Notes started
-- [ ] Core exercises completed
-- [ ] At least one mini-project shipped
+- [ ] Core concepts noted
+- [ ] Exercises completed
+- [ ] Mini-project shipped
+- [ ] Can explain the main ideas without looking anything up
 
 ## Resources
 
-_Add links, books, and courses as you discover them._
+Add books, docs, courses, and articles here as you find them. Keep this list local to this topic.
 
 ---
 
-← Back to [curriculum](https://github.com/yogthesharma/curriculum)
+_This repo is independent. Progress elsewhere does not block work here._
